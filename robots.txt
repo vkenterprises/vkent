@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /core/*.css$
+Sitemap: http://www.craigecomputing.com/sitemap.xml
+Sitemap: http://www.craigecomputing.com/sitemap.xml
