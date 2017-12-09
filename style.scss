@@ -224,6 +224,9 @@ p:last-child {
 .lightbg {
   background-color: #f9f9f9;
 }
+.light-dark-bg {
+  background-color: #e7e7e7;
+}
 
 .transition {
   -webkit-transition: all 300ms linear;
@@ -532,12 +535,11 @@ textarea::-ms-input-placeholder {
 /*For Menu Style*/
 
 .navbar-default {
-  background-color: rgba(48, 48, 48, 0.42);
-  border-color: 0;
+  background-color: rgba(57, 122, 244, 0.6);
 }
 
 .navbar {
-  min-height: 90px;
+  height: 60px;
   margin-bottom: 0;
   border: 0;
   border-radius: 0;
@@ -547,7 +549,7 @@ textarea::-ms-input-placeholder {
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
-  line-height: 55px;
+  line-height: 40px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -562,7 +564,40 @@ textarea::-ms-input-placeholder {
 
 /*For Home Section*/
 
-.home {
+.banner-1 {
+  background: url(assets/images/banner.jpg) no-repeat top;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-2 {
+  background: url(assets/images/banner.jpg) no-repeat top;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-3 {
+  background: url(assets/images/banner.jpg) no-repeat top;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-4 {
   background: url(assets/images/banner.jpg) no-repeat top;
   background-size: cover;
   -moz-background-size: cover;
@@ -905,8 +940,8 @@ textarea::-ms-input-placeholder {
 }
 
 .carousel-indicators {
-  bottom: -70px;
-  left: 325px;
+  bottom: -10px;
+  left: 50%;
 }
 
 .carousel-indicators li {
@@ -1024,4 +1059,8 @@ textarea::-ms-input-placeholder {
   background: #008ac4;
   color: #fff;
   transform: scale(1.1);
-}	
+}
+
+.container-fluid{
+  padding: 0;
+}
