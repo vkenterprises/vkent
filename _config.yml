@@ -11,6 +11,10 @@ description: V K Enterprises is having 10 years of experience into Advertisement
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://lh3.googleusercontent.com/-MbWhC1JcC4o/WXrFQUAibtI/AAAAAAAAAcw/yvqrHl9Mq6gDACk0RFYBCAOPyO29MjgpwCEwYBhgL/w140-h140-p/14470661_1239894476061950_8139270584922670344_n.jpg
 
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: http://www.vkprint.in
+
 #
 # Flags below are optional
 #
