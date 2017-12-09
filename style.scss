@@ -946,7 +946,7 @@ textarea::-ms-input-placeholder {
 
 .carousel-indicators li {
   display: inline-block;
-  width: 50px;
+  width: 30px;
   height: 7px;
   background-color: none;
   background-color: #c1eafb;
@@ -955,9 +955,9 @@ textarea::-ms-input-placeholder {
 }
 
 .carousel-indicators .active {
-  width: 50px;
+  width: 20px;
   height: 8px;
-  background-color: #4bcaff;
+  background-color: #44bcff;
   border: 0;
 }
 
