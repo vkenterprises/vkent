@@ -125,7 +125,7 @@ input[type="color"],
 }
 
 .form-control {
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px groove rgba(144, 118, 224, 0.37);
   font-size: 16px;
   height: 45px;
 }
@@ -1063,4 +1063,21 @@ textarea::-ms-input-placeholder {
 
 .container-fluid{
   padding: 0;
+}
+
+.page-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: large;
+  color: #555555;
+}
+
+.page-description {
+  font-size: medium;
+  color: #5e5e5e;
+  padding-top: 10px;
+  text-align: center;
 }
