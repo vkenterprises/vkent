@@ -6,63 +6,24 @@
             <h5>Below are some of our innovative designs and samples you could choose from. </h5>
         </div>
 
-        <!-- Example row of columns -->
+        {% for column in {{site.data.gallery.gallery-items}} %}
         <div class="row">
+            {% for item in column.items %}
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="gallery-item">
                     <div class="gallery">
-                        <img src="assets/images/gallery/1.jpg" alt=""/>
-                        <h6>Flex Banners</h6>
+                        <img src="assets/images/gallery/{{item.url}}" alt=""/>
+                        <h6>{{item.title}}</h6>
                         <div class="img-overlay"></div>
                         <div class="gallery-icon">
-                            <a class="gallery-img" href="assets/images/gallery/1.jpg ">View More</a>
+                            <a class="gallery-img" href="assets/images/gallery/{{item.url}} ">View More</a>
                         </div>
                     </div>
-                    <p>See our creative flex designs used by some of the leading industries.</p>
+                    <p>{{item.description}}</p>
                 </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="gallery-item">
-                    <div class="gallery">
-                        <img src="assets/images/gallery/2.jpeg" alt=""/>
-                        <h6>Visiting Cards</h6>
-                        <div class="img-overlay"></div>
-                        <div class="gallery-icon">
-                            <a class="gallery-img" href="assets/images/gallery/2.jpeg">View More</a>
-                        </div>
-                    </div>
-                    <p>See our creative Visiting Cards designs trending in Market.</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="gallery-item">
-                    <div class="gallery">
-                        <img src="assets/images/gallery/3.jpeg" alt=""/>
-                        <h6>Batch Design</h6>
-                        <div class="img-overlay"></div>
-                        <div class="gallery-icon">
-                            <a class="gallery-img" href="assets/images/gallery/3.jpeg">View More</a>
-                        </div>
-                    </div>
-                    <p>See our innovative batches designed specially for your business.</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="gallery-item">
-                    <div class="gallery">
-                        <img src="assets/images/gallery/4.png" alt=""/>
-                        <h6>Pemplates</h6>
-                        <div class="img-overlay"></div>
-                        <div class="gallery-icon">
-                            <a class="gallery-img" href="assets/images/gallery/4.png">View More</a>
-                        </div>
-                    </div>
-                    <p>Promote your business by using our attractive customer oriented pamphlet designs.</p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
-    </div> <!-- /container -->
+        <hr/>
+        {% endfor %}
 </section>
