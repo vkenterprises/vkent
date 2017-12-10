@@ -5,10 +5,9 @@
             <h3>Our Gallery</h3>
             <h5>Below are some of our innovative designs and samples you could choose from. </h5>
         </div>
-
-        {% for column in {{site.data.gallery.gallery-items}} %}
+        {% for row in {{site.data.gallery.gallery-items}} %}
         <div class="row">
-            {% for item in column.items %}
+            {% for item in row.items %}
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="gallery-item">
                     <div class="gallery">
