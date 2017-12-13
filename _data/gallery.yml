@@ -18,21 +18,3 @@ gallery-items:
         description: "Promote your business by using our attractive customer oriented pamphlet designs."
         title: Pemplates
         url: 4.png
-  - 
-      items:
-        -
-          description: "See our creative flex designs used by some of the leading industries."
-          title: "Flex Banners"
-          url: 1.jpg
-        -
-          description: "See our creative Visiting Cards designs trending in Market.."
-          title: "Visiting Cards"
-          url: 2.jpg
-        -
-          description: "See our innovative batches designed specially for your business."
-          title: "Badge Design"
-          url: 3.jpeg
-        -
-          description: "Promote your business by using our attractive customer oriented pamphlet designs."
-          title: Pemplates
-          url: 4.png
