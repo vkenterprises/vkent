@@ -499,41 +499,40 @@ h1 span {
 input::-webkit-input-placeholder {
   color: #CACACA;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 input::-moz-placeholder {
   color: #CACACA;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 input:-ms-input-placeholder {
   color: #CACACA;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 textarea::-webkit-input-placeholder {
   color: #CACACA;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 textarea::-moz-input-placeholder {
   color: #CACACA;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 textarea::-ms-input-placeholder {
   color: #CACACA;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 /*For Our Global Style*/
-
 .heading-content {
   margin-bottom: 60px;
   color: #414042;
@@ -551,7 +550,6 @@ textarea::-ms-input-placeholder {
 }
 
 /*For Menu Style*/
-
 .navbar-default {
   background-color: rgba(57, 122, 244, 0.6);
 }
@@ -581,7 +579,6 @@ textarea::-ms-input-placeholder {
 }
 
 /*For Home Section*/
-
 .banner-1 {
   background: url(assets/images/carousal/banner-1.jpg) no-repeat top;
   background-size: cover;
